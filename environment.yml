@@ -1,12 +1,14 @@
 name: forward-dividend
 channels:
-    - conda-forge
-    - default
+  - conda-forge
+  - default
 dependencies:
-    - jupyterlab=3.3.2
-    - python-dotenv
-    - matplotlib
-    - altair
-    - numpy
-    - pandas
-    - curvenote
+  - jupyterlab=3.3.2
+  - python-dotenv
+  - matplotlib
+  - altair
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - curvenote
